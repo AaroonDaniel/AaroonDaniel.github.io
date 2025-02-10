@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Amor 💌</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Efecto de luces parpadeantes -->
+    <div class="twinkling-lights"></div>
+
+    <!-- Contenedor principal -->
+    <div class="main">
+        <h1 class="title">Feliz dia del amor </h1>
+        <h2 class="title">💌 Para mi reina hermosa💌</h1>
+
+            <!-- Contenedor de la carta -->
+            <div class="container-letter" id="carta">
+                <!-- Tapa de la carta -->
+                <div class="cover"></div>
+
+                <!-- Interior del sobre -->
+                <div class="inside"></div>
+
+                <!-- Hoja con mensaje -->
+                <div class="letter-content">
+                    <p>Mi amor,</p>
+                    <p>Eres la luz que ilumina mis días y la razón por la que mi corazón late con tanta fuerza. Cada momento a tu lado es un regalo que atesoro profundamente. 💖</p>
+                    <p>Gracias por ser mi compañera, mi confidente y mi mayor inspiración. Te amo más de lo que las palabras pueden expresar. 🌹</p>
+                    <p>Con todo mi amor,</p>
+                    <p>Tu pareja ❤️</p>
+                </div>
+
+                <!-- Base de la carta -->
+                <div class="letter"></div>
+            </div>
+
+            <!-- Controles de música -->
+            <br>
+            <br>
+            <div class="music-controls">
+                <audio id="background-music" autoplay loop>
+                    <source src="music_14f.mp3" type="audio/mpeg">
+
+                </audio>
+                <button id="play-pause-btn">🎵 Pausar Música</button>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
