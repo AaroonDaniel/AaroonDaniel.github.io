@@ -166,60 +166,32 @@ body {
 #play-pause-btn:hover {
     background-color: #ff858a;
 }
-
 /* 📱 RESPONSIVE DESIGN */
-@media (max-width: 480px) {
-    /* Ajustes generales */
-    .main {
-        padding: 20px;
-    }
-
-    .title {
-        font-size: 36px; /* Título más pequeño */
-        margin-bottom: 15px;
-    }
-
-    /* Contenedor de la carta */
+@media (max-width: 480px) { 
     .container-letter {
-        width: 90%; /* Ocupa el 90% del ancho */
-        height: auto; /* Altura automática */
-        max-width: 240px; /* Máximo ancho */
+        width: 240px;
+        height: 200px;
     }
 
-    /* Base de la carta */
     .letter {
-        border-left: 50% solid #ff989f;
-        border-right: 50% solid #ff989f;
-        border-top: 80px solid transparent;
+        border-left: 120px solid #ff989f;
+        border-right: 120px solid #ff989f;
+        border-top: 100px solid transparent;
         border-bottom: 100px solid #ff858a;
     }
 
-    /* Tapa de la carta */
     .cover {
-        border-left: 50% solid transparent;
-        border-right: 50% solid transparent;
-        border-top: 80px solid #fe3334;
+        border-left: 120px solid transparent;
+        border-right: 120px solid transparent;
+        border-top: 100px solid #fe3334;
     }
 
-    /* Hoja con mensaje */
     .letter-content {
-        width: 100%; /* Ocupa todo el ancho del contenedor */
-        height: auto; /* Altura automática */
-        max-height: 300px; /* Máxima altura */
-        padding: 15px;
-        font-size: 14px; /* Texto más pequeño */
-        top: 100%; /* Posición inicial */
+        width: 220px;
+        height: 350px;
+        font-size: 16px;
     }
-
-    /* Animación al abrir la carta */
-    .container-letter.open .letter-content {
-        top: -30%; /* Sale del sobre */
-    }
-
-    /* Controles de música */
-    .music-controls {
-        margin-top: 15px;
-    }
+}
 
     #play-pause-btn {
         padding: 8px 16px;
